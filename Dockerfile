@@ -15,3 +15,6 @@ RUN apt-get -qq update # -qq -- no output except for errors
 
 # Install openssh-server
 RUN apt-get install -y openssh-server && apt-get clean
+
+# Install nodejs, nodejs-legacy
+RUN apt-get install -y nodejs nodejs-legacy && apt-get clean
