@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# Start the JupyterHub
+jupyterhub --port 7171
