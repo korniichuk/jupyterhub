@@ -18,3 +18,6 @@ RUN apt-get install -y openssh-server && apt-get clean
 
 # Install nodejs, nodejs-legacy
 RUN apt-get install -y nodejs nodejs-legacy && apt-get clean
+
+# Install npm for configurable-http-proxy installation
+RUN apt-get install -y npm && apt-get clean
