@@ -27,3 +27,6 @@ RUN npm install -g configurable-http-proxy
 
 # Install pip3 for jupyterhub installation
 RUN apt-get install -y python3-pip && apt-get clean
+
+# Install jupyterhub
+RUN pip3 install jupyterhub
