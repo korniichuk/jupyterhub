@@ -37,3 +37,5 @@ EXPOSE 7171
 # Copy the 'jupyterhubscript' file to the filesystem of the container
 COPY jupyterhubscript jupyterhubscript
 RUN chmod 755 jupyterhubscript
+
+CMD ./jupyterhubscript
