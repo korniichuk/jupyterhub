@@ -21,3 +21,6 @@ RUN apt-get install -y nodejs nodejs-legacy && apt-get clean
 
 # Install npm for configurable-http-proxy installation
 RUN apt-get install -y npm && apt-get clean
+
+# Install configurable-http-proxy
+RUN npm install -g configurable-http-proxy
