@@ -10,7 +10,7 @@ MAINTAINER Ruslan Korniichuk <ruslan.korniichuk@gmail.com>
 USER root
 
 # Retrieve new lists of packages
-ENV REFRESHED_AT 2015–12–28
+ENV REFRESHED_AT 2015–12–29
 RUN apt-get -qq update # -qq -- no output except for errors
 
 # Install nodejs, nodejs-legacy
@@ -27,6 +27,9 @@ RUN apt-get install -y python3-pip && apt-get clean
 
 # Install jupyterhub
 RUN pip3 install jupyterhub
+
+# Install IPython Notebook
+RUN pip3 install "ipython[notebook]"
 
 # Expose a port
 EXPOSE 7171
