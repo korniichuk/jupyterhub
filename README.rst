@@ -3,7 +3,11 @@
 
 Full description
 ================
-The `korniichuk/scipy-k3d-notebook <https://hub.docker.com/r/korniichuk/scipy-k3d-notebook/>`_ Docker image with JupyterHub.
+The `jupyter/notebook <https://hub.docker.com/r/jupyter/notebook/>`_ Docker image with JupyterHub.
+
+GitHub
+======
+The `korniichuk/jupyterhub <https://github.com/korniichuk/jupyterhub/>`_ repo.
 
 Docker Hub
 ==========
